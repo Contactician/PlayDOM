@@ -1,0 +1,167 @@
+html {
+  font-size: 10px;
+  font-family: Roboto, sans-serif;
+  --nav-color: #161616;
+  --bg-color: #232323;
+  background-color: var(--bg-color);
+  max-width: 399px;
+}
+
+body {
+  background-color: var(--bg-color);
+  margin: 0px;
+  min-width: 170px;
+
+  overflow: hidden;
+}
+
+/* .object {
+  background-color: rgba(0,0,0,0.2);
+} */
+
+.content {
+  padding: 4em 2em 4em 0em;
+}
+
+.adobe-toolbar {
+  width: 80%;
+  margin: 0px 10%;
+}
+
+#content {
+  margin: 1rem 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* .menu-trigger:before {
+  height: 2rem;
+  width: 2rem;
+  font-size: 2em;
+} */
+
+#trigger {
+  top: 2.65rem;
+  height: 100px;
+}
+
+#trigger > span{
+  /* background-color: red; */
+  padding: 4rem .25rem 15rem .25rem;
+}
+
+.menu-trigger {
+  padding-left: 0px;
+}
+
+#chart {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: .5rem;
+  margin-left: .5rem;
+}
+
+li {
+  /* display: flex;
+  justify-content: flex-start; */
+}
+
+input {
+  text-align: center;
+  font-size: 1.5rem;
+  height: 2rem;
+  background-color: transparent;
+  border: 0px solid transparent;
+  width: 1.5rem;
+  color: rgba(0,0,0,0.4);
+}
+
+#wrap {
+  margin: 0em;
+  padding: 1em 0em;
+}
+
+.wrapIt {
+  /* border: 2px solid black; */
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+  /* float: right; */
+  z-index: 9999;
+  width: 30%;
+  padding-right: 2rem;
+  max-width: 399px;
+  top: 10rem;
+  left: 50%;
+  /* border: 2px solid red; */
+}
+
+ul {
+  -webkit-margin-end: 3em;
+}
+
+.exam > li {
+  margin: .25rem 0rem;
+}
+
+#type {
+  font-size: 1.5rem;
+}
+
+#example {
+  font-size: 1rem;
+}
+
+#descipt {
+  font-size: 1.2rem;
+}
+
+#path {
+  font-size: 1rem;
+}
+
+.exam {
+  list-style: none;
+}
+
+.node {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: auto;
+  padding: 1rem;
+  border: 2px solid white;
+  color: white;
+}
+
+/* .chart {
+  height: auto;
+  width: 100%;
+  margin: .5rem auto;
+  border-radius: .25rem;
+}
+.node {
+  color: #9CB5ED;
+  border: 2px dashed #C8C8C8;
+  border-radius: 3px;
+}
+.node p {
+  font-size: 20px;
+  line-height: 20px;
+  height: 20px;
+  font-weight: bold;
+  padding: 3px;
+  margin: 0;
+} */
